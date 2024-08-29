@@ -74,8 +74,3 @@ KNN Algorithm: Use the KNN algorithm to find products similar to those the user 
 Recommendations: Display the recommended products to the user on their dashboard and product pages.
 
 
-Contact
-For any questions or suggestions, please feel free to reach out:
-
-Email: your.email@example.com
-GitHub: yourusername
