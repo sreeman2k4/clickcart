@@ -1,0 +1,10 @@
+.custom-heading {
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Dark grey color for the text */
+    margin-top: 20px; /* Space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    text-align: center; /* Center align the text */
+    line-height: 1.4; /* Line height for better readability */
+    font-family: 'Arial', sans-serif; /* Font family */
+  }

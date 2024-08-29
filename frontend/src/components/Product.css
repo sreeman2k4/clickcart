@@ -1,0 +1,59 @@
+/* Product.css */
+
+/* Container styling for the product card */
+.product-card {
+    max-height: 350px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* Image styling for product images */
+  .product-card img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Card body styling */
+  .product-card .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .product-card .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Price styling */
+  .product-card .price {
+    font-size: 1.2rem;
+    color: #ff6f61;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Rating styling */
+  .product-card .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Card hover effect */
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

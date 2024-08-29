@@ -1,0 +1,86 @@
+/* search.css */
+
+.search-dropdown {
+    border-radius: 50px; /* Rounded corners */
+    padding: 10px 20px;  /* Padding for visual spacing */
+    font-size: 16px;     /* Font size */
+    width: 300px;        /* Width of the input */
+    border: 1px solid #ccc; /* Light border */
+    background-color: white; /* White background */
+    appearance: none; /* Removes default dropdown appearance */
+    -webkit-appearance: none; /* Removes dropdown arrow in Safari */
+    -moz-appearance: none; /* Removes dropdown arrow in Firefox */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path fill="none" stroke="gray" stroke-width="2" d="M0 3l5 5 5-5"/></svg>'); /* Custom dropdown arrow */
+    background-repeat: no-repeat; /* No repeat for the background image */
+    background-position: right 10px center; /* Positioning the custom dropdown arrow */
+    cursor: pointer; /* Cursor change to indicate it's interactive */
+  }
+  
+  .search-dropdown:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+  }
+
+  /* Header and Navbar styles */
+header {
+    background-color: #f6560c; /* Background color of the navbar */
+  }
+  
+  .navbar {
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+  }
+  
+  .navbar-brand img {
+    height: 65px; /* Set the height of the logo */
+    width: 145px; /* Set the width of the logo */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove border from the toggle button */
+  }
+  
+  
+  /* Navbar items and links styles */
+  .nav-link {
+    color: #ffffff !important; /* Set link color */
+    font-size: 16px; /* Set font size */
+    margin: 0 15px; /* Spacing between links */
+  }
+  
+  .nav-link:hover {
+    color: #dcdcdc !important; /* Color of the link on hover */
+  }
+  
+  /* Navbar Dropdown styles */
+  .nav-dropdown-menu {
+    background-color: #f6560c; /* Background color of dropdown menu */
+  }
+  
+  .nav-dropdown-item {
+    color: #ffffff; /* Text color of dropdown items */
+  }
+  
+  .nav-dropdown-item:hover {
+    background-color: #e5450c; /* Background color of dropdown item on hover */
+    color: #ffffff; /* Text color of dropdown item on hover */
+  }
+  
+  /* SearchBar styles */
+  .search-bar {
+    margin-right: 15px; /* Spacing from other elements */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center; /* Center align items on mobile */
+    }
+  
+    .nav-link {
+      margin: 10px 0; /* Adjust spacing for mobile */
+    }
+  }
+  
+  
